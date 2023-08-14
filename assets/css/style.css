@@ -1,0 +1,92 @@
+*
+{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: DancingScript-Regular;
+    src: url("../font/DancingScript-Regular.ttf");
+}
+.container
+{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 50px;
+    border: 1px solid gray;
+}
+.div-one
+{
+    height: 300px;
+    width: 200px;
+    background-image: url("../img/b-12.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: cover;
+    float: left;
+    margin: 100px 10px  50px 50px;
+
+    transform: skewY(30deg);
+    
+
+}
+.div-two
+{
+    height: 300px;
+    width: 200px;
+    background-image: url(../img/b-44.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 100px 10px 50px 0px;
+    transform: skewY(-30deg);
+
+}
+.div-three
+{
+    height: 300px;
+    width: 400px;
+    background: radial-gradient(brown,orange,yellow);
+    float: left;
+    align-items: center;
+}
+.div-four
+{
+    width:400px;
+    height: 300px;
+    float: left;
+    background-color: brown;
+    box-shadow: 5px 5px 5px gray;
+}
+h1{
+    text-shadow: 3px 3px 3px gray;
+}
+/* .div-three{
+    height: 300px;
+    width: 400px;
+    background: radial-gradient(brown,orange,yellow);
+    float: left;
+}
+.text
+{
+    font-size: 30px;
+    font-family: 'GreatVibes-Regular';
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    line-height:35px;
+    text-align: justify;
+    font-weight: bold;
+} */
+.text
+{
+    font-size: 30px;
+    font-family: DancingScript-Regular;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    line-height: 35px;
+    text-align: justify;
+    font: bold;
+    float: left;
+}
